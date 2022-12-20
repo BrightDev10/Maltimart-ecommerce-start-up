@@ -1,0 +1,48 @@
+
+.auth_form{
+    background: var(--card-bg-03);
+    padding: 40px;
+    border-radius: 5px;
+}
+.auth_form input{
+    width: 40%;
+    border: 1px solid var(--card-bg-02);
+    height: 40px;
+    padding: 10px ;
+    border-radius: 5px;
+    font-size: .8rem;
+}
+.auth_btn{
+    font-weight: 600;
+    width: 40%;
+
+}
+.create_account{
+    font-size: 1rem;
+    color: var(--primary-color);
+}
+.create_account span{
+    text-decoration: underline;
+}
+.select_file{
+    color:var(--primary-color);
+    
+}
+
+@media screen and (max-width: 768px) {
+    .create_account{
+        font-size: .8rem;
+        color: var(--primary-color);
+    }
+    .auth_form input{
+        width: 50%;
+        padding: 10px ;
+        border-radius: 5px;
+        font-size: .8rem;
+    }
+    .auth_btn{
+        font-weight: 600;
+        width: 50%;
+    
+    }
+}
